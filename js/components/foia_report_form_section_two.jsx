@@ -13,13 +13,13 @@ class FoiaReportFormSectionTwo extends Component {
         <div className="form-group">
           <fieldset>
             <legend className="foia-header-blue-line--h2">
-              2. Select data type(s)
+              2. Select Data Type(s)
               <FoiaTooltip text="Select the type of FOIA data you would like to view. The data comes from agencies' Annual FOIA Reports. To learn more about the data, view the terms in the Glossary." />
             </legend>
             <div className="form-group field">
               <label htmlFor="data_type"><strong>Data Type</strong></label>
               <select name="data_type" id="data_type" className="usa-reset-width">
-                <option value="" disabled>Select a data type</option>
+                <option value="" disabled>Select a Data Type</option>
                 <option value="report_requests">Requests</option>
                 <option value="request_disposition"> - Disposition</option>
                 <option value="report_fee_waiver"> - Expedited Processing</option>
@@ -79,8 +79,8 @@ class FoiaReportFormSectionTwo extends Component {
               </select>
             </div>
             <div className="form-group field">
-              <label htmlFor="data_filter_value">Enter a numeric value</label>
-              <input name="data_filter_value" id="data_filter_value" value="" placeholder="Enter a numeric value" />
+              <label htmlFor="data_filter_value">Enter a Numeric Value</label>
+              <input name="data_filter_value" id="data_filter_value" value="" placeholder="Enter a Numeric Value" />
             </div>
             <div className="form-group form-group_footer">
               <button className="usa-button usa-button-primary-alt">Submit</button>
